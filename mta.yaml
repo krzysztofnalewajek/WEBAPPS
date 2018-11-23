@@ -3,6 +3,8 @@ _schema-version: '2.0'
 version: 0.0.1
 
 modules:
- - name: APP1
+ - name: Application1
    type: html5
-   path: APP1
+   path: Application1
+
+ 

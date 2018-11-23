@@ -1,7 +1,7 @@
 {
 	"_version": "1.5.0",
 	"sap.app": {
-		"id": "APP1.APP1",
+		"id": "WA.Application1",
 		"type": "application",
 		"i18n": "i18n/i18n.properties",
 		"applicationVersion": {
@@ -38,7 +38,7 @@
 
 	"sap.ui5": {
 		"rootView": {
-			"viewName": "APP1.APP1.view.Master",
+			"viewName": "WA.Application1.view.Master",
 			"type": "XML"
 		},
 		"dependencies": {
@@ -61,7 +61,7 @@
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "APP1.APP1.i18n.i18n"
+					"bundleName": "WA.Application1.i18n.i18n"
 				}
 			}
 		},
@@ -75,7 +75,7 @@
 				"routerClass": "sap.m.routing.Router",
 				"viewType": "XML",
 				"async": true,
-				"viewPath": "APP1.APP1.view",
+				"viewPath": "WA.Application1.view",
 				"controlAggregation": "pages",
 				"controlId": "idAppControl"
 			},
